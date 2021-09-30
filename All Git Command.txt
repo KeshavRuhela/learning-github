@@ -10,4 +10,5 @@ git add . / git add --a / git add "file_name_with extension"    // add file fold
 git commit -m "Message here to what changes is done here"	// to store a record
 git log 							// show all created version in reposratory
 
-git restore 							// to restore in previous version
+git restore --staged "file_name"				// to restore in previous version
+
