@@ -15,3 +15,5 @@ git restore --staged "file_name"				// to restore in previous version
 touch .gitignore						// to create a ignored files
 
 git restore "file_Name"						// to restore a delete  file
+
+git clone "file path"						// make a clone reposrtory
