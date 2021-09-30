@@ -21,3 +21,7 @@ git clone "file path"						// make a clone reposrtory
 git diff 							// it show difference between working and stage repository
 
 git diff --staged						// it show difference between commit and stage repository
+
+git commit -a -m "message"					// it use to send in a repository (untracked fill will not send by using this)
+
+git mv "exists file name" "update file name"			// it used to rename exists file by git command
