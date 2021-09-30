@@ -12,3 +12,6 @@ git log 							// show all created version in reposratory
 
 git restore --staged "file_name"				// to restore in previous version
 
+touch .gitignore						// to create a ignored files
+
+git restore "file_Name"						// to restore a delete  file
