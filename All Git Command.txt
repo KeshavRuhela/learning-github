@@ -1,13 +1,14 @@
                       // ............. make a new git reposeratory ............ //
-	
 
 
 git status	 						// to check a .git folder (git reposratory) make or any changes or commit
+
 git init 							// it make a git reposratory
 
 git add . / git add --a / git add "file_name_with extension"    // add file folder in reposratory
 
 git commit -m "Message here to what changes is done here"	// to store a record
+
 git log 							// show all created version in reposratory
 
 git restore --staged "file_name"				// to restore in previous version
@@ -25,3 +26,10 @@ git diff --staged						// it show difference between commit and stage repository
 git commit -a -m "message"					// it use to send in a repository (untracked fill will not send by using this)
 
 git mv "exists file name" "update file name"			// it used to rename exists file by git command
+
+git rm "file name"						// to remove a file  from directory
+
+git rm --cached "file name"					// it use to remove a file only from git repository 
+
+
+
