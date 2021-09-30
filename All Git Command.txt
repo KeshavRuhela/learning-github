@@ -17,3 +17,7 @@ touch .gitignore						// to create a ignored files
 git restore "file_Name"						// to restore a delete  file
 
 git clone "file path"						// make a clone reposrtory
+
+git diff 							// it show difference between working and stage repository
+
+git diff --staged						// it show difference between commit and stage repository
