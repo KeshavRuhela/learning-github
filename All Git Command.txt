@@ -31,5 +31,6 @@ git rm "file name"						// to remove a file  from directory
 
 git rm --cached "file name"					// it use to remove a file only from git repository 
 
+git rm -f "file name"						// to forced remove 
 
 
