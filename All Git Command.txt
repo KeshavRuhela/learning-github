@@ -11,7 +11,7 @@ git commit -m "Message here to what changes is done here"	// to store a record
 
 git log 							// show all created version in reposratory
 
-git restore --staged "file_name"				// to restore in previous version
+git restore --staged "file_name"				// remove file from staged position 
 
 touch .gitignore						// to create a ignored files
 
