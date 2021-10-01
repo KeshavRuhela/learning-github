@@ -36,6 +36,8 @@ git rm -f "file name"						// to forced remove
 
 
 
+git checkout -b "branch_name" 					// use to create a branch
+
 
 clear								// use to clear terminal 
 
