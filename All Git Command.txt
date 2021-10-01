@@ -35,6 +35,18 @@ git rm -f "file name"						// to forced remove
 
 git config --global alias.ustage "restore --staged"		// make a short cut of a git command
 
+// create a new repository on git1hub and genrate a ssh key 
+
+tail ~/.ssh/id_rsa.pub						// to get your ssh key
+
+git remote							// to ccheck your remote
+
+git remote add "repository folder name" "repository link(https://github.com/KeshavRuhela/learning-github.git)"	// to link your repository
+
+git push -u "repository folder name" "branch name"  		// it push all file to reemote of "branch name"
+
+ 
+
 
 git checkout -b "branch_name" 					// use to create a branch
 
