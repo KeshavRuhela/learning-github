@@ -33,7 +33,7 @@ git rm --cached "file name"					// it use to remove a file only from git reposit
 
 git rm -f "file name"						// to forced remove
 
-
+git config --global alias.ustage "restore --staged"		// make a short cut of a git command
 
 
 git checkout -b "branch_name" 					// use to create a branch
