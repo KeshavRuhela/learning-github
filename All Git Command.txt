@@ -45,10 +45,22 @@ git remote add "repository folder name" "repository link(https://github.com/Kesh
 
 git push -u "repository folder name" "branch name"  		// it push all file to reemote of "branch name"
 
- 
-
+git commit --amend						// to change already commit message
 
 git checkout -b "branch_name" 					// use to create a branch
+
+
+
+
+		       // ............. filter command ............. //
+
+git log -p -1 							// itt show only last commit you can use  2/3/4....... to see more recent commiit
+
+git log --pretty=short						// it  use to show all commit in short we can use more like short (online)
+
+git log --stat							// show commit with changes
+
+
 
 
 clear								// use to clear terminal 
